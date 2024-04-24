@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expedi</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Knewave&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header>
+    <p class="icon brand-name">Expedi</p>
+    <nav>
+      <a class="navbar" id="home" href="#home-area">Home</a>
+      <a class="navbar" id="package" href="#package-area">Our Package</a>
+      <a class="navbar" id="contact" href="#contact-area">Contact Us</a>
+    </nav>
+  </header>
+  <body>
+    <section id="content">
+      <div id="home-area">
+        <p id="title">Your Trusted Travel Agent</p>
+        <p id="tagline">Your happiness is our priority.</p>
+        <div class="home-container">
+          <div id="container-1-left">
+            <div id="home-banner">
+              <img
+                class="banner"
+                id="banner1"
+                src="./images/home-img-1.jpg"
+                style="display: block"
+              />
+              <img class="banner" id="banner2" src="./images/home-img-2.jpg" />
+              <img class="banner" id="banner3" src="./images/home-img-3.jpg" />
+              <img class="banner" id="banner4" src="./images/home-img-4.jpg" />
+              <img class="banner" id="banner5" src="./images/home-img-5.jpg" />
+            </div>
+            <p class="testimonial">
+              "Liburanku jadi lebih menyenangkan bersama
+              <span class="brand-name">Expedi</span>."
+            </p>
+            <div class="customer">
+              <img src="./images/customer.png" height="40px" />
+              <div class="customer-details">
+                <p class="customer-name">Florence Hughes</p>
+                <p class="customer-job">Ibu Rumah Tangga, 28</p>
+              </div>
+            </div>
+          </div>
+          <div id="container-1-right">
+            <div class="form-container">
+              <p class="cta-info">Need information?</p>
+              <p>
+                Isi form di bawah ini dan customer care kami akan menghubungi
+                Anda dalam 1x24 jam.
+              </p>
+              <form class="info-form">
+                <label id="name-input" for="name">
+                  Full name:
+                  <input
+                    id="name"
+                    type="text"
+                    placeholder="Enter your name here"
+                    required
+                  />
+                </label>
+                <label id="email-input" for="name">
+                  Email address:
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="Enter your email address here"
+                    required
+                  />
+                </label>
+                <label id="interest-input" for="interest">
+                  What information do you need?
+                  <select id="interest">
+                    <option>--Please select one--</option>
+                    <option>
+                      I want to know which destination I should go.
+                    </option>
+                    <option>
+                      I want to know information regarding my booking status.
+                    </option>
+                    <option>
+                      I want to know how much it costs to go to a destination.
+                    </option>
+                    <option>
+                      I want to know if this promo code still applies.
+                    </option>
+                    <option>The information I need is not listed above.</option>
+                  </select>
+                </label>
+                <input id="submit" type="submit" label="Send" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div id="package-area">
+          <p id="package-title">Our Package</p>
+          <div class="package-container">
+            <div class="package" id="bali">
+              <img src="./images/bali.jpg" />
+              <div id="bali-details">
+                <p class="destination">Bali</p>
+                <p>Kunjungi cagar budaya dan kuliner yang menarik</p>
+              </div>
+            </div>
+            <div class="package" id="japan">
+              <img src="./images/japan.jpg" />
+              <div id="japan-details">
+                <p class="destination">Japan</p>
+                <p>Kunjungi cagar budaya dan kuliner yang menarik</p>
+              </div>
+            </div>
+            <div class="package" id="singapore">
+              <img src="./images/singapore.jpg" />
+              <div id="singapore-details">
+                <p class="destination">Singapore</p>
+                <p>Kunjungi cagar budaya dan kuliner yang menarik</p>
+              </div>
+            </div>
+            <div class="package" id="bandung">
+              <img src="./images/bandung.jpg" />
+              <div id="bandung-details">
+                <p class="destination">Bandung</p>
+                <p>Kunjungi cagar budaya dan kuliner yang menarik</p>
+              </div>
+            </div>
+            <div class="package" id="surabaya">
+              <img src="./images/surabaya.jpg" />
+              <div id="surabaya-details">
+                <p class="destination">Surabaya</p>
+                <p>Kunjungi cagar budaya dan kuliner yang menarik</p>
+              </div>
+            </div>
+            <div class="package" id="Thailand">
+              <img src="./images/thailand.jpg" />
+              <div id="thailand-details">
+                <p class="destination">Thailand</p>
+                <p>Kunjungi cagar budaya dan kuliner yang menarik</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="contact-area">
+          <p class="contact-text cta-book">So what are you waiting for?</p>
+          <p class="contact-text">
+            Schedule an appointment and book your holiday now!
+          </p>
+          <div class="call-button">
+            <a href="#" target="_blank">Schedule a call</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div id="footer-texts">
+        <a href="#" target="_blank">Terms of Service</a>
+        <a href="#" target="_blank">Privacy Policy</a>
+      </div>
+      <p id="copyright">©2024 <span class="brand-name">Expedi</span></p>
+    </footer>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
